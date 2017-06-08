@@ -1,4 +1,4 @@
-var LAMBDA_URL  = process.env.LAMBDA_URL ? process.env.LAMBDA_URL : "";
+var LAMBDA_URL  = process.env.LAMBDA_URL ? process.env.LAMBDA_URL : "https://tupo4jj0g4.execute-api.eu-central-1.amazonaws.com/prod/HyperflowExecutor";
 //var GCF_URL  = process.env.GCF_URL ? process.env.GCF_URL :  'http://localhost:2000'
 
 var S3_BUCKET = process.env.S3_BUCKET ? process.env.S3_BUCKET : "montage-lambda";

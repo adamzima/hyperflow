@@ -1,4 +1,4 @@
-var GCF_URL  = process.env.GCF_URL ? process.env.GCF_URL : "https://us-central1.hyperflow-functions.cloudfunctions.net/hyperflow_executor";
+var GCF_URL  = process.env.GCF_URL ? process.env.GCF_URL : "https://us-central1-linpack-benchmark-166820.cloudfunctions.net/";
 //var GCF_URL  = process.env.GCF_URL ? process.env.GCF_URL :  'http://localhost:2000'
 
 var GOOGLE_BUCKET = process.env.GOOGLE_BUCKET ? process.env.GOOGLE_BUCKET : "maciek-test";
